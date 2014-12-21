@@ -8,8 +8,8 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/icon.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>vendor/css/bootstrap.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>vendor/css/icon.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 20px;
@@ -55,20 +55,20 @@
       }
 
     </style>
-    <link href="<?php echo base_url();?>assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>vendor/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+      <script src="../vendor/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
-	<script src="<?php echo base_url();?>assets/js/jquery-1.9.1.js"></script>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../vendor/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../vendor/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../vendor/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../vendor/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../vendor/ico/favicon.png">
+	<script src="<?php echo base_url();?>vendor/js/jquery-1.9.1.js"></script>
 	<style type="text/css">
 
 	::selection{ background-color: #E13300; color: white; }
@@ -95,17 +95,17 @@
 	}
 	
 	</style>
-<!--<link href="../assets/css/style.css" rel="stylesheet" type="text/css">-->
-<script src="<?php echo base_url();?>assets/js/jquery-1.9.1.js"></script>
-<script src="<?php echo base_url();?>assets/js/jquery-ui.js"></script>
-<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.css" />
-<script src="<?php echo base_url();?>assets/js/bootstrap.js"></script>	
-<script type="text/javascript" language="javascript" src="<?php echo base_url();?>assets/js/jquery.dataTables.js"></script>
-<link rel="stylesheet" href="<?php echo base_url();?>assets/css/jquery-ui.css" />
+<!--<link href="../vendor/css/style.css" rel="stylesheet" type="text/css">-->
+<script src="<?php echo base_url();?>vendor/js/jquery-1.9.1.js"></script>
+<script src="<?php echo base_url();?>vendor/js/jquery-ui.js"></script>
+<link rel="stylesheet" href="<?php echo base_url();?>vendor/css/bootstrap.css" />
+<script src="<?php echo base_url();?>vendor/js/bootstrap.js"></script>	
+<script type="text/javascript" language="javascript" src="<?php echo base_url();?>vendor/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" href="<?php echo base_url();?>vendor/css/jquery-ui.css" />
 
 <style type="text/css" title="currentStyle">
-	@import "<?php echo base_url();?>assets/css/demo_page.css";
-	@import "<?php echo base_url();?>assets/css/demo_table.css";
+	@import "<?php echo base_url();?>vendor/css/demo_page.css";
+	@import "<?php echo base_url();?>vendor/css/demo_table.css";
 </style>
 <script>
 $(document).ready(function() {
@@ -163,7 +163,7 @@ $(document).ready(function() {
     </div>
 <!--<div class="page-header" style="background-color:black;">
 	
-	<img src="../assets/images/title.gif" border="0" title="Incident Management System">
+	<img src="../vendor/images/title.gif" border="0" title="Incident Management System">
 </div>-->
 
 <br/>

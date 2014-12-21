@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>vendor/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 40px;
@@ -43,20 +43,20 @@
       }
 
     </style>
-    <link href="<?php echo base_url();?>assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>vendor/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+      <script src="../vendor/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
-	<script src="<?php echo base_url();?>assets/js/jquery-1.9.1.js"></script>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../vendor/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../vendor/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../vendor/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../vendor/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../vendor/ico/favicon.png">
+	<script src="<?php echo base_url();?>vendor/js/jquery-1.9.1.js"></script>
 	<style type="text/css">
 
 	::selection{ background-color: #E13300; color: white; }
@@ -151,19 +151,19 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo base_url();?>assets/js/jquery.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-transition.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-alert.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-modal.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-dropdown.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-scrollspy.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-tab.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-tooltip.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-popover.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-button.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-collapse.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-carousel.js"></script>
-    <script src="<?php echo base_url();?>assets/js/bootstrap-typeahead.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/jquery.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-transition.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-alert.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-modal.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-dropdown.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-scrollspy.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-tab.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-tooltip.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-popover.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-button.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-collapse.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-carousel.js"></script>
+    <script src="<?php echo base_url();?>vendor/js/bootstrap-typeahead.js"></script>
 
   </body>
 </html>

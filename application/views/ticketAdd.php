@@ -58,7 +58,7 @@
 	$(function() {
 		 $( "#datepicker1" ).datepicker({
 			showOn: "button",
-			buttonImage: "../../assets/images/calendar.gif",
+			buttonImage: "../../vendor/images/calendar.gif",
 			format: 'Y-m-d',
 			buttonImageOnly: true
 		}); 

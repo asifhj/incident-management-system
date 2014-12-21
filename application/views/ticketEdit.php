@@ -73,7 +73,7 @@
 							}
 							else
 							{
-								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system/assets/images/approved.jpg");
+								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system/vendor/images/approved.jpg");
 								//$('#body').html(data);
 							}
 
@@ -91,7 +91,7 @@
 							}
 							else
 							{
-								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system/assets/images/approved.jpg");
+								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system/vendor/images/approved.jpg");
 								//$('#body').html(data);
 							}
 							//alert(data);
@@ -122,7 +122,7 @@
 							$('#message').html('');
 							if(data=="Approved")
 							{
-								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system_new/assets/images/approved.jpg");
+								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system_new/vendor/images/approved.jpg");
 								$('#Approve').attr('disabled','disable');
 								$('#message').html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert'>&times;</button><h6>Ticket approved!</h6></div>");
 								$('#Reject').removeAttr('disabled');
@@ -144,7 +144,7 @@
 							$('#message').html('');
 							if(data=="Rejected")
 							{
-								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system_new/assets/images/rejected.jpg");
+								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system_new/vendor/images/rejected.jpg");
 								$('#Reject').attr('disabled','disable');
 								$('#ApprovalStatusMsg').html('<h4>Rejected</h4>');
 								$('#message').html("<div class='alert alert-error'><button type='button' class='close' data-dismiss='alert'>&times;</button><h6>Ticket rejected!</h6></div>");
@@ -177,7 +177,7 @@
 								
 								$('#message').html("<div class='alert alert-success'><button type='button' class='close' data-dismiss='alert'>&times;</button><h6>Ticket has exceptionally approved!</h6></div>");
 								$('#ApprovalStatusMsg').html('<h4>Approved with Exception!</h4>');
-								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system_new/assets/images/exceptionalapproved.png");
+								$('#ApprovalStatus').attr('src',"http://localhost/incident_management_system_new/vendor/images/exceptionalapproved.png");
 								$('#ApprovalStatus').attr('width','100');
 								$('#ApprovalStatus').attr('height','100');
 								$('#ExceptionalApprove').attr('disabled','disable');
@@ -225,16 +225,16 @@
 			<div class="span2">
 				<div id="result">
 					<?php if($Ticket->ApprovalStatus=="Pending")
-							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."assets/images/Pending.jpg' width='200px' height='200px'></div>";
+							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."vendor/images/Pending.jpg' width='200px' height='200px'></div>";
 						else
 						if($Ticket->ApprovalStatus=="Approved")
-							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."assets/images/approved.jpg' width='200px' height='200px'></div>";
+							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."vendor/images/approved.jpg' width='200px' height='200px'></div>";
 						else
 						if($Ticket->ApprovalStatus=="Rejected")
-							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."assets/images/rejected.jpg' width='200px' height='200px'></div>";
+							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."vendor/images/rejected.jpg' width='200px' height='200px'></div>";
 						else
 						if($Ticket->ApprovalStatus=="ExceptionalApproved")
-							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."assets/images/ExceptionalApproved.png' width='100px' height='100px'></div>";?>
+							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."vendor/images/ExceptionalApproved.png' width='100px' height='100px'></div>";?>
 						
 				</div><br/><br/>
 			</div>
@@ -254,16 +254,16 @@
 			<div class="span2">
 				<div id="result">
 					<?php if($Ticket->TicketStatus=="Open")
-							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."assets/images/open.jpg' width='100px' height='100px'></div>";
+							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."vendor/images/open.jpg' width='100px' height='100px'></div>";
 						else
 						if($Ticket->TicketStatus=="Closed")
-							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."assets/images/closed.jpg' width='100px' height='100px'></div>";
+							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."vendor/images/closed.jpg' width='100px' height='100px'></div>";
 						else
 						if($Ticket->TicketStatus=="Resolved")
-							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."assets/images/Resolved.png' width='100px' height='100px'></div>";
+							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."vendor/images/Resolved.png' width='100px' height='100px'></div>";
 						else
 						if($Ticket->TicketStatus=="Update")
-							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."assets/images/Update.png' width='100px' height='100px'></div>";
+							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."vendor/images/Update.png' width='100px' height='100px'></div>";
 						
 						?>
 				</div><br/><br/>

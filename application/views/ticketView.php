@@ -82,16 +82,16 @@
 			<div class="span2">
 				<div id="result">
 					<?php if($Ticket->ApprovalStatus=="Pending")
-							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."assets/images/Pending.jpg' width='200px' height='200px'></div>";
+							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."vendor/images/Pending.jpg' width='200px' height='200px'></div>";
 						else
 						if($Ticket->ApprovalStatus=="Approved")
-							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."assets/images/approved.jpg' width='200px' height='200px'></div>";
+							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."vendor/images/approved.jpg' width='200px' height='200px'></div>";
 						else
 						if($Ticket->ApprovalStatus=="Rejected")
-							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."assets/images/rejected.jpg' width='200px' height='200px'></div>";
+							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."vendor/images/rejected.jpg' width='200px' height='200px'></div>";
 						else
 						if($Ticket->ApprovalStatus=="ExceptionalApproved")
-							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."assets/images/ExceptionalApproved.png' width='100px' height='100px'></div>";?>
+							echo "<div id='apdiv'><img id='ApprovalStatus' src='".base_url()."vendor/images/ExceptionalApproved.png' width='100px' height='100px'></div>";?>
 						
 				</div><br/><br/>
 			</div>
@@ -111,16 +111,16 @@
 			<div class="span2">
 				<div id="result">
 					<?php if($Ticket->TicketStatus=="Open")
-							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."assets/images/open.jpg' width='100px' height='100px'></div>";
+							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."vendor/images/open.jpg' width='100px' height='100px'></div>";
 						else
 						if($Ticket->TicketStatus=="Closed")
-							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."assets/images/closed.jpg' width='100px' height='100px'></div>";
+							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."vendor/images/closed.jpg' width='100px' height='100px'></div>";
 						else
 						if($Ticket->TicketStatus=="Resolved")
-							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."assets/images/Resolved.png' width='75px' height='75px'></div>";
+							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."vendor/images/Resolved.png' width='75px' height='75px'></div>";
 						else
 						if($Ticket->TicketStatus=="Update")
-							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."assets/images/Update.png' width='100px' height='100px'></div>";
+							echo "<div id='apdiv'><img id='TicketStatus' src='".base_url()."vendor/images/Update.png' width='100px' height='100px'></div>";
 						
 						?>
 				</div><br/><br/>
