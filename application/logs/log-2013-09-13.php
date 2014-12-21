@@ -1,0 +1,31 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2013-09-13 18:04:08 --> Severity: Warning  --> mysql_pconnect(): Access denied for user 'root'@'localhost' (using password: NO) /var/www/incident_management_system_new/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2013-09-13 18:04:08 --> Unable to connect to the database
+ERROR - 2013-09-13 18:04:49 --> 404 Page Not Found --> assets
+ERROR - 2013-09-13 18:05:49 --> 404 Page Not Found --> assets
+ERROR - 2013-09-13 18:05:56 --> 404 Page Not Found --> assets
+ERROR - 2013-09-13 18:05:59 --> 404 Page Not Found --> assets
+ERROR - 2013-09-13 18:06:02 --> Query error: Table 'incident_management_system.Users' doesn't exist
+ERROR - 2013-09-13 18:06:12 --> 404 Page Not Found --> assets
+ERROR - 2013-09-13 18:06:15 --> 404 Page Not Found --> Login
+ERROR - 2013-09-13 18:06:18 --> 404 Page Not Found --> assets
+ERROR - 2013-09-13 18:06:21 --> Query error: Table 'incident_management_system.Users' doesn't exist
+ERROR - 2013-09-13 18:06:42 --> Query error: Table 'incident_management_system.Users' doesn't exist
+ERROR - 2013-09-13 18:06:45 --> 404 Page Not Found --> assets
+ERROR - 2013-09-13 18:06:49 --> Query error: Table 'incident_management_system.Users' doesn't exist
+ERROR - 2013-09-13 18:08:28 --> Query error: Table 'incident_management_system.users' doesn't exist
+ERROR - 2013-09-13 18:10:27 --> Query error: Table 'incident_management_system.users' doesn't exist
+ERROR - 2013-09-13 18:11:13 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:11:31 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:11:51 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:12:35 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:12:44 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:12:52 --> 404 Page Not Found --> assets
+ERROR - 2013-09-13 18:12:56 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:14:21 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:14:49 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:17:54 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:18:32 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:20:39 --> 404 Page Not Found --> dashboard/assets
+ERROR - 2013-09-13 18:25:29 --> 404 Page Not Found --> dashboard/assets

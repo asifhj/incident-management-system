@@ -1,0 +1,25 @@
+
+a.update, a.delete, a.add, a.view, a.back {
+	font-size: 10pt;	
+	font-wight:bold;
+	padding-left:20px;
+	text-decoration: none;
+}
+a.update {
+	background:url(images/update.png) left center no-repeat;
+}
+a.delete {
+	background:url(images/delete.png) left center no-repeat;
+}
+a.add {
+	background:url(images/add.png) left center no-repeat;
+}
+a.view {
+	background:url(images/view.png) left center no-repeat;
+}
+a.back {
+	background:url(images/prev.gif) left center no-repeat;
+}
+a.update:hover, a.delete:hover, a.add:hover, a.view:hover {
+	color:#000;
+}

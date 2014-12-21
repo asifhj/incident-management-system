@@ -1,0 +1,938 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+
+img{
+border-style:none;
+}
+input, select{
+	font-family:arial, verdana;
+	font-size:11px;
+	color:#364d5a;
+
+}
+.header {
+	background:url('../images/header_bg.jpg');
+	height:87px;
+	width:100%;
+	#width:99.80%;
+	margin-bottom:2px;
+	}
+.userIcon {
+	font-family:arial, verdana;
+	font-size:11px;
+	color:#3d90cb;
+	font-weight:bold;
+	text-align:right;
+	padding:0px 10px 0px 10px;
+	height:25px;
+	text-align:left;
+	
+	}
+.welcome {
+	font-family:arial, verdana;
+	font-size:11px;
+	color:#3d90cb;
+	font-weight:normal;
+	text-align:right;
+	padding:0px 10px 0px 0px;
+	height:25px;
+	}
+
+.welcome a {
+	font-family:arial, verdana;
+	font-size:11px;
+	color:#3d90cb;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+.name {
+	font-family:arial, verdana;
+	font-size:11px;
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+.tablehead {
+	background:#869ba2;
+	color:#FFFFFF;
+	font-family:arial, verdana;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 0px 5px 10px;
+	}
+
+.tablehead_Center{
+	background:#869ba2;
+	color:#FFFFFF;
+	font-family:arial, verdana;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 0px 5px 10px;
+	text-align:center;
+	}
+
+.columnhead {
+	background:#a2afb3;
+	color:#FFFFFF;
+	font-family:arial, verdana;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 0px 5px 10px;
+	}
+	.columnheadCheckbox {
+	background:#a2afb3;
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:4px 5px 0px 5px;
+	font-weight:bold;
+	}
+
+.cell1 {
+	background:#d1d6d7;
+	color:#536685;
+	font-family:arial, verdana;
+	font-size:28px;
+	text-align:center;
+	}
+	
+.cell2 {
+	background:#e1e2e2;
+	color:#536685;
+	font-family:arial, verdana;
+	font-size:28px;
+	text-align:center;
+	}
+
+.cell3 {
+	background:#efefef;
+	color:#536685;
+	font-family:arial, verdana;
+	font-size:28px;
+	text-align:center;
+	}
+
+.cell4 {
+	background:#fafafa;
+	color:#536685;
+	font-family:arial, verdana;
+	font-size:28px;
+	text-align:center;
+	}
+
+.yourday {
+	border:1px solid #e5e5e5;
+	clear:both;
+	}
+
+.boxtext {
+	color:#869ba2;
+	font-family:arial, verdana;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px 5px 5px 5px;
+	}
+
+.bodycontainer {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	width:100%;
+	}
+
+.slidehead {
+	background:url('../images/header_tile.gif');
+	height:23px;
+	font-family:arial, verdana;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0px 0px 0px 10px;
+	color:#313b41;
+	}
+.expandCollapse {
+	background:url('../images/header_tile.gif');
+	height:23px;
+	font-family:arial, verdana;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0px 0px 0px 10px;
+	color:#3d90cb;
+	width:auto;
+	clear:both;
+	border:1px solid #dddddd;
+	margin-bottom:2px;
+	}
+	.ECICon{
+	padding-right:10px;
+	
+	}
+.patientlist {
+	background:#f3f7f8;
+	border:1px solid #dcdcdc;
+	height:200px;
+	width:100%;
+	}
+.dataDiv{
+height:auto;
+/*width:86.80%;*/
+width:85%;
+float:left;
+}	
+
+.rightNav{
+height:auto;
+width:182px;
+float:left;
+}
+.rightNav a{
+color:#000;
+text-decoration:none;
+
+}
+.leftNavBtn a {
+	text-decoration:none;
+	color:#21205c;
+	}
+
+.leftNavBtn{
+width:162px;
+height:25px;
+border:1px solid #e8e8e8;
+background:url('../images/subNavBg.gif') repeat-x;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:15px;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+padding-top:10px;
+#padding-bottom:10px;
+cursor:pointer;
+}
+
+
+
+.leftNavBtnSelect{
+width:162px;
+height:25px;
+border:1px solid #e8e8e8;
+background:url('../images/leftNavBtnSelect.gif') repeat-x;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:15px;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+padding-top:10px;
+#padding-bottom:10px;
+cursor:pointer;
+}
+
+.leftNavBtnSelect a {
+	text-decoration:none;
+	color:#21205c;
+	}
+
+.PDHeader{
+background:url('../images/PDHeader.gif') repeat-x ; 
+width:auto;
+height:25px;
+color:#3d90cb;
+padding:5px;
+font-family:arial, verdana;
+font-size:12px;
+font-weight:bold;
+border:#d2d1d1 1px solid;
+}
+.PDTable{
+width:99%;
+}
+.PDTable td{
+background:#f1f8fc;
+height:26px;
+border-bottom:#d2d1d1 1px solid;
+font-family:verdana, arial;
+font-size:12px;
+color:#2a4b5d;
+
+}
+.episodeTable{
+width:100%;
+border:1px solid #e6e6e6;
+}
+.episodeTable td{
+background:#ecf1f4;
+height:29px;
+border-bottom:#d2dce0 1px solid;
+font-family:arial, verdana;
+font-size:11px;
+color:#2a4b5d;
+width:33%;
+padding-left:5px;
+}
+.mainPDTable{
+float:left;
+width:100%;
+height:40px;
+border:1px solid #d2d1d1;
+background:#f1f8fc;
+margin-bottom:5px;
+}
+.photo{
+width:60px;
+height:40px;
+border:1px solid #CCCCCC;
+margin-right:5px;
+}
+.progressNotes{
+width:99%;
+margin-left:3px;
+}
+.observations{
+width:93%;
+margin-left:3px;
+float:left;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+}
+.observationsPopup{
+width:100%;
+margin-left:3px;
+float:left;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+height:75px;
+}
+.CMTable{
+
+}
+.CMTableRightHeader{
+float:right;
+padding:5px;
+background:url('../images/subHeaderBg.gif') repeat-x ; 
+border:1px solid #c0c1c2;
+}
+.CMTableHeader{
+}
+.CMTableHeader td{
+border:1px solid #CCCCCC;
+background:#869ba2;
+font-family:arial, verdana;
+font-size:12px;
+color:#fff;
+font-weight:bold;
+padding:5px;
+}
+.CMTableHeaderDiv{
+background:#869ba2;
+font-family:arial, verdana;
+font-size:12px;
+color:#fff;
+font-weight:bold;
+padding:5px;
+float:left;
+}
+.CMSubHeader{
+border:1px solid #d2dee5;
+background:#d2dee5;
+font-family:arial, verdana;
+font-size:12px;
+font-weight:bold;
+color:#5f737a;
+padding:5px;
+text-align:center;
+}
+.tablehead1{
+border:1px solid #d2dee5;
+background:#d2dee5;
+font-family:arial, verdana;
+font-size:12px;
+font-weight:bold;
+color:#4b5659;
+padding:5px;
+text-align:left;
+border-bottom:1px solid #afb7ba;
+}
+.CMCell{
+background:#f1f8fc;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px;
+border-bottom:1px solid #c7d4d9;
+text-align:center;
+}
+.CMCellTextarea{
+background:#f1f8fc;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px;
+border-bottom:1px solid #c7d4d9;
+text-align:left;
+}
+.CMCellUnderline{
+background:#f1f8fc;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px;
+border-bottom:1px solid #c7d4d9;
+text-align:center;
+text-decoration:underline;
+}
+.CMCellUnderline a{
+background:#f1f8fc;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px;
+border-bottom:1px solid #c7d4d9;
+text-align:center;
+text-decoration:underline;
+}
+.CMCellSelect{
+background:#f9b696;
+font-family:arial, verdana;
+font-size:11px;
+color:#fff;
+padding:5px;
+border-bottom:1px solid #c7d4d9;
+text-align:center;
+}
+.label{
+background:#f1f8fc;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+color:#5f737a;
+padding:5px;
+border-bottom:1px solid #c7d4d9;
+border-right:1px solid #c7d4d9;
+text-align:left;
+width:200px;
+}
+.data{
+background:#FFFFFF;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px;
+border-bottom:1px solid #c7d4d9;
+border-right:1px solid #c7d4d9;
+text-align:left;
+width:200px;
+}
+
+.datafreeflow{
+background:#FFFFFF;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px;
+border-bottom:1px solid #c7d4d9;
+border-right:1px solid #c7d4d9;
+text-align:left;
+}
+
+.spanfloat{
+float:left;
+}
+
+.arrowRight{
+background:url('../images/arrow.gif') no-repeat;
+background-position:top;
+float:right;
+height:17px;
+width:17px;
+#margin-top:-15px;
+}
+
+.arrowTop{
+background:url('../images/arrowTop.gif') no-repeat;
+background-position:top;
+float:right;
+height:17px;
+width:17px;
+#margin-top:-15px;
+
+}
+.textbox{
+width:150px;
+height:20px;
+border:1px solid #e6e6e6;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+}
+.textboxBig{
+width:450px;
+height:20px;
+border:1px solid #e6e6e6;
+color:#5f737a;
+
+}
+.bottomBtn{
+margin-top:2px;
+ text-align:right;
+ clear:both;
+ }
+.bottomBtn input{
+	padding:1px;
+	border:1px solid #c0c1c2;
+	background:url(../images/bottmBtnBg.gif) repeat-x;
+	color:#fff;
+	font-weight:bold;
+	clear:both;
+	font-size:11px;
+  }
+ 
+ .addDelBtn {
+	height:22px;
+	background:url(../images/bottmBtnBg.gif) repeat-x;	
+	margin-top:2px;
+	text-align:left;
+	font-family:arial;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:11px;
+	}
+
+#detailstable {
+	background:#f3f7f8;
+	border:1px solid #dcdcdc;
+	margin-left:5px;
+	width: 400px;
+	padding: 2px;
+	}
+
+.detailsname {
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:18px;
+	padding:0px 0px 0px 0px;
+	}
+
+.smalldetails {
+	color:#556c74;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:4px 5px 0px 5px;
+	vertical-align:top;
+	text-align:left;
+	}
+
+.calendarbox {
+	background:#FFFFFF;
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:5px 5px 5px 5px;
+	font-weight:bold;
+	border:1px solid #e1e1e1;
+	}
+
+.calendarboxtime {
+	background:#f7f3d6;
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:4px 5px 0px 5px;
+	font-weight:bold;
+	}
+
+.calendarboxOP {
+	background:#ddf6d6;
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:4px 5px 0px 5px;
+	font-weight:bold;
+	}
+
+.calendarboxIP {
+	background:#d6d7f6;
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:4px 5px 0px 5px;
+	font-weight:bold;
+	}
+
+.calendarboxSUR {
+	background:#e1ceee;
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:4px 5px 0px 5px;
+	font-weight:bold;
+}
+
+.calendarboxOTHER {
+	background:#f6d7df;
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:4px 5px 0px 5px;
+	font-weight:bold;
+}
+
+.calendarboxLUNCH {
+	background:#c1c7c7;
+	color:#000000;
+	font-family:arial, verdana;
+	font-size:11px;
+	padding:10px 5px 10px 5px;
+	font-weight:bold;
+}
+
+.leftNavBtnCalendar{
+width:162px;
+height:25px;
+border:1px solid #e8e8e8;
+background:url('../images/subNavBg.gif') repeat-x;
+margin-left:45px;
+margin-right:45px;
+margin-bottom:15px;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+padding-top:8px;
+#padding-bottom:10px;
+cursor:pointer;
+}
+
+.leftNavBtnCalendarTab {
+width:150px;
+height:25px;
+border:1px solid #e8e8e8;
+background:url('../images/subNavBg.gif') repeat-x;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+padding-top:5px;
+cursor:pointer;
+text-decoration:none;
+color:#003366;
+}
+
+.leftNavBtnCalendarTab a{ 
+
+		text-decoration:none;
+		color:#003366;
+	}
+	
+.leftNavBtnCalendarSelectTab {
+width:150px;
+height:25px;
+border:1px solid #a3a6be;
+background:url('../images/leftNavBtnCalendarSelectTab.gif') repeat-x;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+padding-top:5px;
+cursor:pointer;
+text-decoration:none;
+color:#003366;
+}
+
+.leftNavBtnCalendarSelectTab a{ 
+
+		text-decoration:none;
+		color:#003366;
+	}
+.patientPhotoDiv{
+width:64px;
+height:65px;
+float:left;
+}
+.patientDetailsDiv{
+width:147px;
+height:65px;
+background:#2b496b;
+float:left;
+padding:5px;
+text-align:left;
+font-family:arial, verdana;
+font-size:12px;
+color:#FFFFFF;
+text-decoration:none;
+}
+.CMCellProgress 
+{
+background:#f1f8fc;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px 5px 5px 10px;
+border-bottom:1px solid #c7d4d9;
+}
+.loginBgDiv{
+background:url(../images/loginBg.gif) no-repeat;
+width:980px;
+height:596px;
+border:1px solid #fff;
+margin-left:7%;
+
+
+}
+.loginTable{
+margin-top:290px;
+margin-left:655px;
+width:300px;
+}
+.loginLabel{
+color:#FFFFFF;
+font-family:arial, verdana;
+font-size:12px;
+}
+.forgotPassword{
+color:#5b5b5f;
+font-family:arial, verdana;
+font-size:12px;
+cursor:pointer;
+text-decoration:underline;
+}
+.formbtn{
+margin-top:2px;
+background:url('../images/bottmBtnBg.gif') repeat-x;
+height:22px;
+width:75px;
+font-family:arial, verdana;
+font-size:11px;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+.txtlong {
+font-family:arial, verdana;
+font-size:11px;
+color:#000000;
+width:400px;
+
+}
+
+.txtbig {
+font-family:arial, verdana;
+font-size:11px;
+color:#000000;
+width:200px;
+}
+
+.txtnormal {
+font-family:arial, verdana;
+font-size:11px;
+color:#000000;
+width:150px;
+}
+
+.txtsmall {
+font-family:arial, verdana;
+font-size:11px;
+color:#000000;
+width:75px;
+}
+
+.txtvsmall {
+font-family:arial, verdana;
+font-size:11px;
+color:#000000;
+width:25px;
+}
+
+.dataDiv_app{
+height:auto;
+width:99%;
+float:left;
+}              
+
+.calendarboxbusy {
+background:#f9b696;
+color:#000000;
+font-family:arial, verdana;
+font-size:11px;
+padding:5px 5px 5px 5px;
+font-weight:bold;
+border:1px solid #e1e1e1;
+}
+
+.tablehead a {
+background:#869ba2;
+color:#FFFFFF;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+text-decoration:underline;
+padding-right:5px;
+}
+.fixDiv{
+width:100%;
+/*height:450px;*/
+height:600px;
+overflow:auto;
+}
+.loginbg {
+                background:url('../images/login_bg.jpg') no-repeat;
+                width:634px;
+                height:318px;
+                text-align:center;
+                }
+
+.CMCellLeft_log{
+background:#FFFFFF;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px;
+text-align:left;
+}
+
+.copyright {
+                font-family:arial, verdana;
+                font-size:10px;
+                color:#5f737a;
+                text-align:center;
+                }
+.patientListT{
+position:absolute;
+width: 146px; 
+top: 109px;
+ left: 36px;
+background:#FFFFFF;
+border:1px solid #e5e5e5;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#2a4b5d;
+}
+.patientListT1{
+	position:absolute;
+	width: 130px;
+	top:222px;
+	left:10px;
+	background:#d2dee5;
+	border:1px solid #869ba2;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#2a4b5d;
+}
+.patientListT2{
+	position:absolute;
+	width: 130px;
+	top:222px;
+	left:70px;
+	background:#d2dee5;
+	border:1px solid #869ba2;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#2a4b5d;
+}
+.patientListT3{
+	position:absolute;
+	width: 130px;
+	top:222px;
+	left:128px;
+	background:#d2dee5;
+	border:1px solid #869ba2;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#2a4b5d;
+}
+.patientListT4{
+	position:absolute;
+	width: 130px;
+	top:222px;
+	left:180px;
+	background:#d2dee5;
+	border:1px solid #869ba2;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#2a4b5d;
+}
+.CMCellLeft_en {
+background:#f1f8fc;
+font-family:arial, verdana;
+font-size:11px;
+color:#5f737a;
+padding:5px;
+text-align:left;
+}
+.loginbg_nurse {
+                background:url('../images/loginnurse_bg.jpg') no-repeat;
+    width:634px;
+    height:318px;
+    text-align:center;
+                }
+
+.loginbg_frontdesk {
+                background:url('../images/frontdesk_bg.jpg') no-repeat;
+    width:634px;
+    height:318px;
+    text-align:center;
+                }
+
+
+.submenu {
+width:135px;
+height:35px;
+border-right:1px solid #e8e8e8;
+background:url('../images/menu.gif') repeat-x;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:15px;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+padding-top:0px;
+#padding-bottom:10px;
+cursor:pointer;
+color:#000000;
+}
+
+.submenu a {
+	text-decoration:none;
+	color:#000000;
+	}
+
+.submenuSelect{
+width:125px;
+height:25px;
+border:1px solid #e8e8e8;
+background:url('../images/leftNavBtnSelect.gif') repeat-x;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:15px;
+font-family:arial, verdana;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+#padding-bottom:10px;
+cursor:pointer;
+color:#000000;
+}
+
+.submenuSelect a {
+	text-decoration:none;
+	color:#000000;
+	}
+
+.tdright {
+	padding:0px 10px 10px 10px;
+}
