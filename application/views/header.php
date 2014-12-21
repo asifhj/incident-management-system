@@ -162,7 +162,6 @@ $(document).ready(function() {
       </div>
     </div>
 <!--<div class="page-header" style="background-color:black;">
-	<img src="../assets/images/logo.gif" border="0" title="Wipro Ltd.">
 	
 	<img src="../assets/images/title.gif" border="0" title="Incident Management System">
 </div>-->
